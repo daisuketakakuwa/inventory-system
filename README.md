@@ -6,7 +6,7 @@ migrate -database "postgres://postgres:postgres@localhost:5435/postgres?sslmode=
 
 ## How to start application
 
-1. goa gen
+1. goa gen（do this every time you modify design）
 ```
 goa gen inventory-system/api/svc/design  
 ```
